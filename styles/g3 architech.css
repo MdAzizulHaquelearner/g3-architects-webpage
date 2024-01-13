@@ -81,6 +81,37 @@ banner-description{color: #727272;
 }
         
         nav{ flex-direction: column;}
-        nav>ul{flex-direction: column;}
-     
-    }
+        nav>ul{flex-direction: column;} }
+
+
+        /* first features style */
+
+.first-feature{ margin:70px 300px 0px;
+    display: flex; }
+/* display:grid;
+grid-template-columns: 1fr 1fr; } */
+
+.part-one{display:grid;
+grid-template-rows:1fr 1fr ;
+grid-template-columns: 1fr 1fr;
+gap:25px;
+}
+ .teams-description{ 
+    color: #727272;
+    font-size: 45px;
+    font-weight: 500;
+    width: 468px;
+    text-align: left;
+ }
+ .of-our-span{color: var(--Dark-01, #131313);
+    font-size: 45px;
+    font-weight: 700;
+}
+.feature-span{ color: #FF900E;
+    font-size: 45px;
+    font-weight: 700;
+} 
+.part-two{ text-align: left;
+margin:180px 76px;
+}
+
