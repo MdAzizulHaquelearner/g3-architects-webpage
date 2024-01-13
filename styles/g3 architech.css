@@ -1,4 +1,86 @@
  /* Works sans google fonts? */
   @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
-
   *{ font-family: 'Work Sans', sans-serif;}
+/* shared style/ */
+ .btn-primary{
+    border-radius: 8px;
+background: #FF900E;
+color: #FFF;
+text-align: center;
+font-size: 20px;
+font-weight: 600;
+padding:20px 25px;
+border:none;
+
+ }
+        /* header part */
+
+header{
+ background: rgba(255, 144, 14, 0.10);
+ padding:50px 240px;
+
+}       
+.nav-heading{color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+} 
+
+nav{display: flex;
+     justify-content: space-between;
+}
+nav>ul{display: flex;
+
+}
+nav li { list-style: none;
+    margin:30px; 
+    font-size: 18px;
+    font-weight:500;
+
+
+}
+nav a{ text-decoration:none;
+color:#424242;
+}
+
+.banner-content{
+    width: 862px;
+    text-align: center;
+    margin:0 auto;
+}
+.banner-heading{ font-size: 64px;
+  color:#131313;
+   font-weight: 700;
+}
+banner-description{color: #727272;
+    font-size: 16px;
+    font-weight: 400px;
+}
+.banner img{ 
+    width:100%;
+    margin:20px;
+}
+
+/* Media query setting */
+@media screen and (max-width: 576px) {
+    header{ padding:50px;
+ }
+    nav{ flex-direction: column;}
+    nav>ul{flex-direction: column;}
+
+    .banner-content{
+        width:100%;
+        text-align: center;
+         }
+    
+    }
+     
+    /* medium devices */
+
+    @media screen and (min-width:576px) and (max-width:992px) {
+        header{ padding:50px;
+}
+        
+        nav{ flex-direction: column;}
+        nav>ul{flex-direction: column;}
+     
+    }
